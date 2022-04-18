@@ -21,8 +21,16 @@ body {
   padding: 20px 40px;
   border-top: 6px solid #7bb6b9;
 }
-.phone {
-  margin-right: 20px;
+.contact {
+  margin-left: 10px;
+}
+.fa-phone {
+  margin-right: 10px;
+  font-size: 24px;
+}
+.fa-envelope {
+  margin-left: 15px;
+  font-size: 24px;
 }
 
 .material-icons {
