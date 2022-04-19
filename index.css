@@ -44,6 +44,48 @@ button {
   cursor: pointer;
   color: #666;
 }
+.header {
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  border-bottom: 1px solid #7bb6b9;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-content {
+  color: #666;
+  font-family: "Roboto", sans-serif;
+  max-width: 68rem;
+  margin: auto;
+}
+.header-link:hover {
+  color: #7bb6b9;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header-link {
+  color: #666;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+.home {
+  color: #7bb6b9;
+}
+.home:hover {
+  color: #666;
+}
+
+.img-name:hover {
+  cursor: pointer;
+  color: #666;
+}
+
 .fa-facebook {
   margin-left: 8px;
   margin-right: 18px;
@@ -54,4 +96,37 @@ button {
 
 .fa-instagram:hover {
   color: #999;
+}
+.carousel {
+  position: relative;
+}
+.dog-photo {
+  max-width: 100%;
+}
+
+.button-icon {
+  border: none;
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+.button-icon:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.icon-left {
+  left: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+.icon-right {
+  right: 40px;
+  top: 50%;
+  transform: translate(50%, -50%);
 }
