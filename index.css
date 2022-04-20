@@ -60,8 +60,6 @@ button {
 .header-content {
   color: #666;
   font-family: "Roboto", sans-serif;
-  max-width: 68rem;
-  margin: auto;
 }
 .header-link:hover {
   color: #7bb6b9;
@@ -129,4 +127,57 @@ button {
   right: 40px;
   top: 50%;
   transform: translate(50%, -50%);
+}
+.testimonial-section {
+  position: relative;
+}
+.centralized-content {
+  max-width: 68rem;
+  margin: auto;
+}
+
+.photo-cat {
+  max-width: 100%;
+}
+.grid-3-cols {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 80px;
+  padding: 0 15px;
+}
+.name-title {
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-size: 24px;
+  font-weight: 300;
+  padding: 15px 0 8px 0;
+}
+.crmv {
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 0px 0px 15px;
+  color: #0c8599;
+}
+.description {
+  font-family: "Roboto", sans-serif;
+  color: #666;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: justify;
+}
+.testimonial-box {
+  grid-column: 2 / -1;
+  align-self: center;
+}
+
+.header-detail-01 {
+  width: 100px;
+  height: 4px;
+  display: inline-block;
+  background: #7bb6b9;
+  padding-top: 3px;
+  margin-bottom: 10px;
 }
