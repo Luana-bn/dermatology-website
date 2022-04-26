@@ -21,7 +21,7 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     />
   </head>
   <body>
@@ -148,7 +148,7 @@
         </div>
       </section>
       <section class="news">
-        <h2 class="treatment centralized-title">Novidades</h2>
+        <h2 class="large-title centralized-title">Novidades</h2>
         <span class="header-detail header-detail-2"></span>
         <div class="featured-carousel">
           <button class="icon-left button-icon">
@@ -198,6 +198,86 @@
           </div>
         </div>
       </section>
+      <div class="large-title contact-title">
+        <h2 class="large-title centralized-title white-title">Contato</h2>
+        <span class="header-detail header-detail-03"></span>
+      </div>
+
+      <div class="form centralized-content">
+        <div class="title-form">
+          <h3>Formulário de contato</h3>
+        </div>
+        <span class="header-detail header-detail-01"></span>
+        <form id="contact-form" method="POST">
+          <input
+            class="contact-form-input"
+            type="text"
+            name="name"
+            placeholder="Nome *"
+          />
+          <input
+            class="contact-form-input"
+            type="email"
+            name="email"
+            placeholder="E-mail *"
+          />
+          <input
+            class="contact-form-input"
+            type="text"
+            name="phone"
+            placeholder="Telefone *"
+          />
+          <textarea
+            class="contact-form-input message-field"
+            name="message"
+            placeholder="Mensagem *"
+            rows="5"
+          ></textarea>
+          <p>Todos os campos marcados com um asterisco (*) são obrigatórios.</p>
+        </form>
+        <button class="btn-send">Enviar</button>
+      </div>
+      <div class="contact-info-grid centralized-content">
+        <div class="contact-data-column">
+          <div class="info centralized-content">
+            <h3>Informações de contato</h3>
+            <span class="header-detail header-detail-04"></span>
+          </div>
+          <div class="contact-box centralized-content">
+            <div class="contact-info-box">
+              <h4><i class="fa fa-location-dot"></i> Endereço:</h4>
+              <p>
+                Rua Visconde de Pirajá, 99 - Sala 999 | Ipanema, Rio de
+                Janeiro/RJ
+              </p>
+            </div>
+
+          
+              <div class="contact-info-box">
+                <h4> <i class="fa fa-phone"></i> Telefones:</h4>
+                <p>(021) 9999-9999</p>
+                <p>(021) 2222-2222</p>
+              </div>
+              <div class="contact-info-box">
+                <h4><i class="fa-solid fa-envelope"></i> E-mail:</h4>
+                <p>contato@luanabruno.com.br</p>
+              </div>
+           
+          </div>
+        </div>
+        <div class="contact-map-column">
+          <iframe
+            width="600"
+            height="450"
+            style="border: 0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+            src=https://www.google.com/maps/embed/v1/place?key=AIzaSyDbaFCk_tIedxgMj1ve8y7VXzkaR4Rj5uE&q=place_id:EklSLiBWaXNjLiBkZSBQaXJhasOhLCA5OSAtIElwYW5lbWEsIFJpbyBkZSBKYW5laXJvIC0gUkosIDIyNDEwLTAwMywgQnJhemlsIjASLgoUChIJiWmOTxfVmwARxEMixlaGL0cQYyoUChIJzw9ZEwXVmwARfQGsveEANic
+          >
+          </iframe>
+        </div>
+      </div>
     </div>
   </body>
 </html>
