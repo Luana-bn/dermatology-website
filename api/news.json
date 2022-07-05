@@ -1,0 +1,22 @@
+{
+"hits": [
+    {
+    "image":"http://127.0.0.1:5500/img/animal4.jpeg",
+    "title":"Ph da pele do seu animal",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, suscipit, possimus explicabo beatae esse corpor."
+    },
+    {
+    "image":"http://127.0.0.1:5500/img/animal5.jpeg",
+    "title":"Características de uma dermatite",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, suscipit, possimus explicabo beatae esse corpor."
+    },
+    {
+    "image":"http://127.0.0.1:5500/img/animal6.jpeg",
+    "title":"Como manter a pele do seu pet saudável",
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, suscipit, possimus explicabo beatae esse corpor."
+    }
+            
+]
+
+
+}
